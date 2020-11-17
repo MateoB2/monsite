@@ -1,5 +1,38 @@
-sah1{
+.sah1{
 	text-align:center;
 	font-size:xxlarge;
-	border-width:2px;
+	border:solid 1px black;
+	font-family:Arial;
+	padding:0.5px;
+	margin-left:500px;
+	margin-right:500px;
+}
+.sah{
+	size:170px 170px;
+	margin-top:25px;
+	margin-left:1700px;
+	display:inline-block;
+}
+.sah2{
+	border:solid 1px black;
+	font-family:Arial;
+	margin-top:20px;
+	padding:0.5px;
+	font-size:large;
+	display:inline-block;
+}
+.sah3{
+	font-family:Arial;
+	margin-left:1700px;
+	font-size:large;
+	display:inline-block;
+}
+.sah4{
+	border:solid 1px black;
+	font-family:Arial;
+	padding:0.5px;
+	margin-left:20px;
+	margin-right:1680px;
+	font-size:large;
+	display:inline-block;
 }
