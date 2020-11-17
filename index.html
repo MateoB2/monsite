@@ -8,39 +8,38 @@
     <body>
 		<div class="sah1"><h1>Bienvenue sur ma fiche de renseignements</h1></div>
 				<form>
-					<div class="sah2">Nom<br>
-					<input type="text" name="Nom"><br></div>
-					<div class="sah2">Prénom<br>
-					<input type="text" name="Prénom"><br></div>
-					<div class="sah3"><img src="jurecmoi.jpg" alt="c'est moi" width="170px" height="170px"></div>
-					<div class="sah4">Date de naissance<br>
-					<input type="text" name="Date de naissance"><br></div>
-					<div class="sah4">Adresse mail<br>
-					<input type="text" name="Adresse mail"></div>
+					<input type="text" class="Nom" name="Nom" value="BIAUT">
+					<input type="text" class="prenom" name="Prénom" value="Matéo"><br>
+					<input type="text" class="date" name="Date de naissance" value="12 octobre 2004"><br>
+					<input type="text" class="mail" name="Adresse mail" value="mateo.biaut@ism-antony.org">
 				</form>
-				
-		<h1>Ma scolarité au collège:</h1>
-			<img src="stjeanned'arc.jfif">
-			<ul>
-				<li>6ème en 2015</li>
-				<li>5ème en 2016</li>
-				<li>4ème en 2017</li>
-				<li>3ème en 2018</li>
-			</ul>
-			<a href="http://www.jdas.org/">Lien vers mon collège</a>
-		<h1>Ma scolarité au lycée:</h1>
-			<img scr="saintmarie.jfif">
-			<table>
-				<tr>
-					<th>Seconde</th>
-					<th>En 2019</th>
-				</tr>
-				<tr>
-					<th>Première MATH SPC NSI</th>
-					<th>En 2020</th>
-				</tr>
-			</table>
-			<a href="www.saintemarieantony.fr">Lien vers mon Lycée</a>
+				<div class="sah3"><img src="jurecmoi.jpg" alt="c'est moi" width="170px" height="170px"></div>
+		<h1 id="college">Ma scolarité au collège:</h1>
+			<form id="jo">
+				<img src="stjeanned'arc.jfif" class="img2" width="300px" height="300px"><br/>
+				<a href="http://www.jdas.org/" class="lien1">Lien vers mon collège</a>
+				<ul>
+					<li>6ème en 2015</li>
+					<li>5ème en 2016</li>
+					<li>4ème en 2017</li>
+					<li>3ème en 2018</li>
+				</ul>
+			</form>
+		<h1 id="lycee">Ma scolarité au lycée:</h1>
+			<form class="jo2">
+				<img scr="marie.png" class="img2" width="300px" height="300px"><br/>
+				<a href="www.saintemarieantony.fr"class="lien1">Lien vers mon Lycée</a>--
+				<table class="tab">
+					<tr>
+						<th>Seconde</th>
+						<td>En 2019</td>
+					</tr>
+					<tr>
+						<th>Première MATH SPC NSI</th>
+						<td>En 2020</td>
+					</tr>
+				</table>
+			</form>
 		<h2>Mes compétences en informatiques:</h2>
 			<p>J'ai certaines connaissances en html et en python
 			</p>
@@ -48,4 +47,4 @@
 			<p>J'envisage de faire un métier dans le domaine de l'informatique
 			</p>
 	</body>
-</html>	
+</html>
